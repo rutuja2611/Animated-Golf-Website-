@@ -9,6 +9,8 @@ document.addEventListener("mousemove", function (dets) {
   blur.style.top = dets.y - 130 + "px";
 });
 
+
+// hover on h4 and get magnifying glass
 var h4all = document.querySelectorAll("#nav h4");
 h4all.forEach(function (elem) {
   elem.addEventListener("mouseenter", function () {
